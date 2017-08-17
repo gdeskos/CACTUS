@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# LOADS A FILE TO XFOIL TO CREATE A POLAR PLOT
+# AND THEN USES A POST STALL PERFORMANCE ROUTINE
+# TO GENERATE THE PLOTS
+rm log*
+rm out.txt
+xfoil <0012.run> logfile

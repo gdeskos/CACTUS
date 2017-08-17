@@ -1,0 +1,15 @@
+naca 4412 
+oper
+visc 100000
+ITER
+200
+pacc
+out.txt
+log.txt
+aseq
+-10
++30
+1
+pacc
+
+quit
